@@ -1,8 +1,10 @@
 {% extends "base.html" %}
+{% load static %}
+
 {% block title %}TeLoVendo - Inicio{% endblock %}
 {% block body %} 
-
-<h1 class="title text-center bg-body-secondary">Bienvenido a Telovendo</h1> 
+<img class = "img-titulo" src="{% static 'assets/imagenes/tlv.png' %}" alt="telovendoasdasa">
+<h1 class="title titulo">Bienvenido a Telovendo</h1> 
 
 {% endblock %}
 
