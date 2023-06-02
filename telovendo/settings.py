@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'telovendoapp',
 ]
 
 MIDDLEWARE = [
@@ -57,7 +58,7 @@ ROOT_URLCONF = 'telovendo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(PROJECT_APP_PATH,'templates')],
+        'DIRS': [os.path.join(PROJECT_APP_PATH,'telovendoapp','templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

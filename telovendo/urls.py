@@ -20,5 +20,6 @@ from telovendoapp import views
 
 urlpatterns = [
     path('', views.index, name='index'),
+    path('clients/', views.clients, name='clients'),
     path('admin/', admin.site.urls),
 ]
